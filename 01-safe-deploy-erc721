@@ -1,0 +1,3 @@
+# Safe Deploy ERC721
+
+In this case, I'd like to deploy an ERC721 with a Gnosis Safe owned by multiple Externally Owned Accounts.
