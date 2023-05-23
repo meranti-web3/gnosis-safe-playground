@@ -12,11 +12,6 @@ const owner1Signer = new ethers.Wallet(
   provider
 );
 
-const ethAdapterOwner1 = new EthersAdapter({
-  ethers,
-  signerOrProvider: owner1Signer,
-});
-
 const safeAmount = ethers.utils.parseUnits("0.01", "ether").toHexString();
 
 const transactionParameters = {
